@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../IMG/Veterinaria.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+[Veterinaria]{
+    margin: 80px auto;
+    padding: 15px auto;
+    background: #ccc;
+    opacity: 0.5;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+}
+.Formulario{
+ margin: 15px;   
+}
+.Formulario__Entrada{
+    padding: 5px;
+    outline: auto;
+}
+#guardar{
+    margin: 0 15px;
+    padding: 5px 5px;
+    background: #008000;
+    cursor: pointer;
+}
+#editar{
+    margin: 0 15px;
+    padding: 5px 5px;
+    background: #46e;
+    cursor: pointer;
+}
+#eliminarE{
+    margin: 0 15px;
+    padding: 5px 5px;
+    background: #f6fa06;
+    cursor: pointer;
+}
+#eliminarM{
+    margin: 0 15px;
+    padding: 5px 5px;
+    background: #f00;
+    cursor: pointer;
+}
+#guardar:hover,
+#editar:hover, 
+#eliminarE:hover,
+#eliminarM:hover{
+    border: 5px #710ed4 outset;
+}
